@@ -5,6 +5,8 @@ description = "Almost empty project with configurations, to start whatever you w
 authors = ["Edkar Chachati <chachati28@gmail.com>"]
 license = "MIT"
 readme = "README.md"
+repository = "https://github.com/EChachati/python-base-project"
+documentation = "https://github.com/EChachati/python-base-project/blob/master/README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
