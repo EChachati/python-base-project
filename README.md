@@ -40,8 +40,11 @@ Para trabajar en un entorno virtual, utilizaremos **`venv`**.
 
 python  -m  venv  venv
 
+## Linux
 source  venv/bin/activate
 
+## Windows
+source venv/Scripts/activate
 ```
 
   
