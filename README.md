@@ -256,3 +256,45 @@ exclude = ["tests"]
 - `exclude`: Lista de directorios o archivos excluidos de las comprobaciones de tipos de MyPy.
 
 Estas secciones son cruciales para configurar las herramientas de desarrollo como Ruff, Black y MyPy. Cada una define reglas, comportamientos y ajustes específicos para asegurar la consistencia y la calidad del código. 
+
+
+# Modificar Dependencias con Poetry:
+Para añadir nuevas dependencias al proyecto, puedes usar el comando `poetry add`. Esto agregará la dependencia al archivo `pyproject.toml`.
+
+#### Dependencia Principal:
+```bash
+poetry add nombre_paquete
+```
+Esto agregará `nombre_paquete` como una dependencia principal en el bloque `[tool.poetry.dependencies]` en `pyproject.toml`.
+
+#### Dependencia de Desarrollo:
+```bash
+poetry add --dev nombre_paquete
+```
+Esto agregará `nombre_paquete` como una dependencia de desarrollo en el bloque `[tool.poetry.group.dev.dependencies]` en `pyproject.toml`.
+
+### Quitar Dependencias:
+Para quitar dependencias del proyecto, puedes usar el comando `poetry remove`.
+
+#### Quitar Dependencia Principal:
+```bash
+poetry remove nombre_paquete
+```
+Esto eliminará `nombre_paquete` de las dependencias principales en `pyproject.toml`.
+
+#### Quitar Dependencia de Desarrollo:
+```bash
+poetry remove --dev nombre_paquete
+```
+Esto eliminará `nombre_paquete` de las dependencias de desarrollo en `pyproject.toml`.
+
+### Actualizar Dependencias:
+Para actualizar dependencias, puedes usar el comando `poetry update`.
+
+#### Actualizar Todas las Dependencias:
+```bash
+poetry update
+```
+Esto actualizará todas las dependencias a sus últimas versiones compatibles y ajustará el archivo `pyproject.toml` en consecuencia.
+
+Estos comandos te permiten gestionar las dependencias de tu proyecto de manera eficiente, ya sea añadiendo nuevas, quitando las que ya no son necesarias o actualizando a las últimas versiones compatibles.
