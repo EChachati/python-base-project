@@ -1,9 +1,6 @@
-# python-base-project
+# Python Base Project
 
-Almost empty project with configurations, to start whatever you want
-
-  
-  
+Repositorio prácticamente vacio, solo con configuraciones, úsalo para hacer cualquier proyecto que quieras 
 
 # **Instalación de Proyecto Base en Python**
 
