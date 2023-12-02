@@ -44,7 +44,7 @@ python  -m  venv  venv
 source  venv/bin/activate
 
 ## Windows
-source venv/Scripts/activate
+venv/Scripts/activate
 ```
 
   
