@@ -60,10 +60,10 @@ jobs:
           source .venv/bin/activate
           if pytest -k "non_existent_identifier_to_avoid_match" .; then
             pytest . --exitfirst
+            coverage report
           else
             echo "No tests found"
-          fi
-          coverage report
+          fi          
       #----------------------------------------------
       #            save tests results
       #----------------------------------------------
