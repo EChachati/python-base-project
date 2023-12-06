@@ -58,12 +58,13 @@ jobs:
       - name: Run tests
         run: |
           source .venv/bin/activate
-          pytest .
+          pytest . --exitfirst
           coverage report
       #----------------------------------------------
       #            save tests results
       #----------------------------------------------
       - name: Save tests results
+        if: success() && steps.setup-python.outputs.return-code == '0'
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Test Action -> Save Coverage results
