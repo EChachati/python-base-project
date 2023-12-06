@@ -15,7 +15,12 @@
     ],
     "cSpell.language": "en,es",
     "cSpell.words": [
-        "chartboost"
+        "chartboost",
+        "pytest",
+        "snok",
+        "stefanzweifel",
+        "venv",
+        "virtualenvs"
     ],
     "python.analysis.typeCheckingMode": "off",
     "docwriter.progress.trackFunctions": true,
