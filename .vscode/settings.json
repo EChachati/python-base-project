@@ -16,6 +16,7 @@
     "cSpell.language": "en,es",
     "cSpell.words": [
         "chartboost",
+        "exitfirst",
         "pytest",
         "snok",
         "stefanzweifel",
