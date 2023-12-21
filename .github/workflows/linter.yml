@@ -3,6 +3,8 @@ on: [ push, pull_request ]
 jobs:
   ruff:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       #----------------------------------------------
       #       check-out repo and set-up python
