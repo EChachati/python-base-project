@@ -10,19 +10,18 @@ Este tutorial te guiará a través de los pasos para hacer un fork del proyecto 
 
   
 
-### **Hacer un Fork del Repositorio**
+### **Dale a la opción de arriba a la derecha 'Use this template'**
 
   
-
-Primero, haz un fork del repositorio original a tu cuenta de GitHub. Visita el repositorio original [aquí](https://github.com/EChachati/python-base-project) y haz clic en el botón "Fork" en la esquina superior derecha de la página. Después, clona tu fork en tu máquina local.
+Al darle click a ese botón te permitirá usar este repositoria como base para que inicies el tuyo. luego lo clonarás a tu máquina local
 
   
 
 ```bash
 
-git  clone  https://github.com/TU_USUARIO/NOMBRE_DEL_FORK.git
+git  clone  https://github.com/TU_USUARIO/NOMBRE_DEL_REPOSITORIO.git
 
-cd  NOMBRE_DEL_FORK
+cd  NOMBRE_DEL_REPOSITORIO
 
 ```
 
