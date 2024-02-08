@@ -2,6 +2,8 @@
 
 Repositorio prácticamente vacio, solo con configuraciones, úsalo para hacer cualquier proyecto que quieras 
 
+This Python Base Project Template provides a streamlined starting point for your next project. Leveraging Poetry for dependency management, it ensures you have the right tools from the get-go. Automated linting with Ruff maintains code quality, while the included testing framework (Pytest) and VS Code configurations accelerate development. Dive into coding faster with this pre-configured setup, saving valuable time and ensuring a solid foundation for your Python project.
+
 # **Instalación de Proyecto Base en Python**
 
   
